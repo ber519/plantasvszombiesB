@@ -1,14 +1,26 @@
 using UnityEngine;
+using System.Collections;
 
 public class Character : MonoBehaviour
 {
 protected Health health;
-protected Collider charecterCollider;
-protected Animator charecterAnimator;
+protected Collider characterCollider;
+[SerializeField]
+protected Animator characterAnimator;
 protected virtual void Awake()
 {
     health = GetComponent<Health>();
-    charecterCollider = GetComponent<Collider>();
-    charecterAnimator = GetComponent<Animator>();
+    characterCollider = GetComponent<Collider>();
+}
+public virtual void Die()
+{
+    characterCollider.enabled = false;
+    StartCoroutine(DieCoroutine());
+}
+private IEnumerator DieCoroutine()
+{
+    characterAnimator.Play("Die", 0, 0f);
+    yield return characterAnimator.WaitForCurrentAnimation();
+    gameObject.SetActive(false);
 }
 }
