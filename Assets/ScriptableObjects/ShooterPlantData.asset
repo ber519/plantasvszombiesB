@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 874e1eb7a6606db408c3b12974885665, type: 3}
   m_Name: ShooterPlantData
   m_EditorClassIdentifier: Assembly-CSharp::ShooterPlantData
-  appearSound: 
-  attackSound: 
-  deathSound: 
-  damage: 0
-  range: 0
-  attackParticles: {fileID: 0}
+  appearSound: Peashooter_appear
+  attackSound: Peashooter_shoot
+  deathSound: Peashooter_die
+  damage: 25
+  range: 3
+  attackParticles: {fileID: 5506075091523802438, guid: 6320b53559cb9f84c8804e2de0efbdce, type: 3}
+  bulletPrefab: {fileID: 6929244512749262293, guid: 84cff8445b3dd454880b626c94186475, type: 3}
+  shootTime: 1
+  fireRate: 2
+  maxHealth: 200
