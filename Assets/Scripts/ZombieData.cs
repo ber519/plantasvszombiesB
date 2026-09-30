@@ -10,4 +10,9 @@ public class ZombieData : ScriptableObject
 
 public float attackCooldown;
 public float hitTime;
+public GameObject attackParticles;
+public string deathSound;
+public string appearSound;
+public string attackSound;
+
 }
