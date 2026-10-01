@@ -14,6 +14,7 @@ protected virtual void Awake()
 }
 public virtual void Die()
 {
+    StopAllCoroutines();
     characterCollider.enabled = false;
     StartCoroutine(DieCoroutine());
 }
