@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80193cacef789ad40bea6fe088af8591, type: 3}
+  m_Name: Zombie 1
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieData
+  maxHealth: 175
+  moveSpeed: 0.5
+  damage: 75
+  attackRange: 1
+  attackCooldown: 1
+  hitTime: 1
+  attackParticles: {fileID: 8976335837816429610, guid: aaee2e9386d233845810f2ee32b5d696, type: 3}
+  deathParticles: {fileID: 3925394020061845610, guid: 2694f3accbe330547ad69bec2b290cd3, type: 3}
+  deathSound: Dance_death
+  appearSound: Dance_appear
+  attackSound: Dance_attack
+  hitSound: Dance_hit

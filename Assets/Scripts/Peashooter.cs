@@ -66,8 +66,8 @@ public class Peashooter : Character
     }
     characterAnimator.Play("Shoot", 0, 0f);
     yield return new WaitForSeconds(shooterPlantData.shootTime);
-    GameObject bullet = PoolManager.Instance.GetObject(shooterPlantData.bulletPrefab, shootPivot.position);
-    bullet.SetActive(false);
+    GameObject bullet = PoolManager.Instance.GetObject(shooterPlantData.bulletPrefab, shootPivot.position, true);
+    //bullet.SetActive(false);
     bullet.GetComponent<Bullet>().Damage = shooterPlantData.damage;
     bullet.transform.position = shootPivot.position;
     bullet.transform.rotation = shootPivot.rotation;
