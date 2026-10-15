@@ -102,6 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Zombie
   characterAnimator: {fileID: 3529075347489877520}
+  initialRotationY: 270
   zombieData: {fileID: 11400000, guid: d78470b3e8e13d94b8c3926d13c2f4a1, type: 2}
 --- !u!114 &9210509728437109755
 MonoBehaviour:

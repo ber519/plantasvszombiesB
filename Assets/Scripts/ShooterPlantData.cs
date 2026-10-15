@@ -9,7 +9,7 @@ public class ShooterPlantData :PlantData
     public GameObject bulletPrefab;
     public float shootTime;
     public float fireRate;
-    public float maxHealth;
+    
 
     
 }

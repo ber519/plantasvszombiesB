@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Peashooter
   characterAnimator: {fileID: 8590851976188986727}
+  initialRotationY: 90
   shooterPlantData: {fileID: 11400000, guid: 79a219400d9149f44979fa5df4bd4f9d, type: 2}
   shootPivot: {fileID: 9073979189088102602}
 --- !u!114 &416082980100768779
