@@ -1451,6 +1451,18 @@ MonoBehaviour:
           m_StringArgument: Game_music_grasschase
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1489423174}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: Initialize
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Game_music_grasschase
+          m_BoolArgument: 0
+        m_CallState: 2
   fade: {fileID: 1035206839}
   fadeAnimationName: Fadeout
 --- !u!4 &291747147
@@ -2076,6 +2088,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8810157406135022189, guid: f56f01b115c934b64989066fa476eca6, type: 3}
+      propertyPath: m_Size.x
+      value: 9.76
+      objectReference: {fileID: 0}
+    - target: {fileID: -8810157406135022189, guid: f56f01b115c934b64989066fa476eca6, type: 3}
+      propertyPath: m_Size.y
+      value: 5.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8810157406135022189, guid: f56f01b115c934b64989066fa476eca6, type: 3}
+      propertyPath: m_Size.z
+      value: 10.22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8810157406135022189, guid: f56f01b115c934b64989066fa476eca6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 315445012725575869, guid: f56f01b115c934b64989066fa476eca6, type: 3}
       propertyPath: m_Name
       value: house_big
@@ -2118,6 +2146,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1093107237810694663, guid: f56f01b115c934b64989066fa476eca6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5232934739625418483, guid: f56f01b115c934b64989066fa476eca6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584452157927735470, guid: f56f01b115c934b64989066fa476eca6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9111051221520091264, guid: f56f01b115c934b64989066fa476eca6, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2280,6 +2320,56 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
   m_PrefabInstance: {fileID: 2030934839}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &548882551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 548882553}
+  - component: {fileID: 548882552}
+  m_Layer: 0
+  m_Name: LaneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &548882552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548882551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb3475da90198441bdd0cfe782f8c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LaneManager
+  lanes:
+  - {fileID: 1984907781}
+  - {fileID: 1563180321}
+  - {fileID: 740063677}
+  - {fileID: 1887786506}
+  - {fileID: 819583934}
+--- !u!4 &548882553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548882551}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.72081, y: 2.62496, z: 1.70912}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &548913037 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7316740187328548238, guid: c601859cfa8db43908cbd040fa192589, type: 3}
@@ -2597,7 +2687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a45272a79365eaf4a81220a905e4b552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlantCard
-  price: 50
   priceText: {fileID: 1033737221}
   plantPrefab: {fileID: 4175700915806378037, guid: e308f98066396e7419df954ed691b0f1, type: 3}
   sunManager: {fileID: 1576285044}
@@ -4232,6 +4321,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 990650431815637021, guid: fc958925259a74dbd9512eda4f8ded4a, type: 3}
   m_PrefabInstance: {fileID: 1361915422}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &916273499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 916273501}
+  - component: {fileID: 916273500}
+  m_Layer: 0
+  m_Name: EnemiesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &916273500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916273499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a409608130078424d887f2ac10299fdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemiesManager
+  laneManager: {fileID: 548882552}
+  onAllEnemiesDefeated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 652867323}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: StopMusic
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!4 &916273501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916273499}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.72081, y: 2.62496, z: 1.70912}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &944793084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5166,6 +5315,38 @@ MonoBehaviour:
   plantLayer:
     serializedVersion: 2
     m_Bits: 512
+  sunManager: {fileID: 1576285044}
+  onPlantPlaced:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 652867323}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: plant
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPlantCancelled:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 652867323}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: cancel
+          m_BoolArgument: 0
+        m_CallState: 2
+  plantPlacesParticlesPrefab: {fileID: 5506075091523802438, guid: 6320b53559cb9f84c8804e2de0efbdce, type: 3}
 --- !u!4 &1097218767
 Transform:
   m_ObjectHideFlags: 0
@@ -7245,6 +7426,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  enemiesManager: {fileID: 916273500}
+  onLevelComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  levelsData: {fileID: 11400000, guid: b26a0495c06c57e4c880bc14f650cd44, type: 2}
 --- !u!4 &1489423175
 Transform:
   m_ObjectHideFlags: 0
@@ -10095,3 +10281,5 @@ SceneRoots:
   - {fileID: 291747147}
   - {fileID: 1648469036}
   - {fileID: 1097218767}
+  - {fileID: 916273501}
+  - {fileID: 548882553}
