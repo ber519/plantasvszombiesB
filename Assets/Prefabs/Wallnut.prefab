@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6882323938966625808}
   - component: {fileID: 2252198008401176598}
   - component: {fileID: 2754922315835477193}
+  - component: {fileID: 1075790541718231286}
   m_Layer: 7
   m_Name: Wallnut
   m_TagString: Plant
@@ -102,7 +103,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Wallnut
   characterAnimator: {fileID: 8297465231561927520}
   initialRotationY: 0
+  blinkDuration: 3
+  price: 10
   maxHealth: 250
+--- !u!114 &1075790541718231286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8786260286040191971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a45e3fabd1c9a264dafb02136289d6cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Blink
+  blinkInterval: 0.2
 --- !u!1001 &5832775201043557485
 PrefabInstance:
   m_ObjectHideFlags: 0

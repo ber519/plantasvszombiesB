@@ -15,9 +15,216 @@ MonoBehaviour:
   levels:
   - enemies:
     - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
-      spawnTime: 8
-      laneIndex: 2
+      spawnTime: 30
+      laneIndex: 1
     - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
-      spawnTime: 15
+      spawnTime: 111
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 47
       laneIndex: 3
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 134
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 80
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 120
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 72
+      laneIndex: 3
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 84
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 72
+      laneIndex: 1
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 151
+      laneIndex: 0
+  - enemies:
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 30
+      laneIndex: 1
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 123
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 47
+      laneIndex: 3
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 165
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 80
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 245
+      laneIndex: 1
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 72
+      laneIndex: 3
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 84
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 72
+      laneIndex: 1
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 114
+      laneIndex: 0
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 132
+      laneIndex: 0
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 195
+      laneIndex: 3
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 211
+      laneIndex: 0
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 250
+      laneIndex: 4
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 277
+      laneIndex: 1
+  - enemies:
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 30
+      laneIndex: 1
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 82
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 47
+      laneIndex: 3
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 112
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 80
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 90
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 72
+      laneIndex: 3
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 84
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 72
+      laneIndex: 1
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 114
+      laneIndex: 0
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 125
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 147
+      laneIndex: 4
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 189
+      laneIndex: 3
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 192
+      laneIndex: 1
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 220
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 234
+      laneIndex: 0
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 287
+      laneIndex: 1
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 354
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 320
+      laneIndex: 3
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 380
+      laneIndex: 4
+  - enemies:
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 30
+      laneIndex: 1
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 82
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 47
+      laneIndex: 3
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 112
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 80
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 90
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 72
+      laneIndex: 3
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 84
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 72
+      laneIndex: 1
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 114
+      laneIndex: 0
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 125
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 147
+      laneIndex: 4
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 189
+      laneIndex: 3
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 192
+      laneIndex: 1
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 220
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 234
+      laneIndex: 0
+    - enemyPrefab: {fileID: 4380726483961894037, guid: 9dc07caed84fd8445b0e7ac045b45e89, type: 3}
+      spawnTime: 287
+      laneIndex: 1
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 354
+      laneIndex: 2
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 320
+      laneIndex: 3
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 380
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 380
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 380
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 380
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 380
+      laneIndex: 4
+    - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
+      spawnTime: 380
+      laneIndex: 4
   currentIndex: 0
