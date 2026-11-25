@@ -9,7 +9,8 @@ public class ShooterPlantData :PlantData
     public GameObject bulletPrefab;
     public float shootTime;
     public float fireRate;
-    
+    public int numberOfBullets = 1;
+    public float shotBulletsDelay = 0.2f;
 
     
 }
