@@ -36,9 +36,9 @@ MonoBehaviour:
       spawnTime: 50
       laneIndex: 3
     cardLevels:
-    - cardPrefab: {fileID: 5326860071833668289, guid: 582aeae17881396498a173764fb680a9, type: 3}
-    - cardPrefab: {fileID: 4895596932577264935, guid: b09aeeb48b57c934e96f3c14d9622687, type: 3}
-    - cardPrefab: {fileID: 8822080084861336491, guid: a8c943dac6dbad946a11005a8232d07b, type: 3}
+    - {fileID: 4895596932577264935, guid: b09aeeb48b57c934e96f3c14d9622687, type: 3}
+    - {fileID: 5326860071833668289, guid: 582aeae17881396498a173764fb680a9, type: 3}
+    skyboxMaterial: {fileID: 2100000, guid: 7b0f2096b49ccfb4f8b47c8084d650fa, type: 2}
   - enemies:
     - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
       spawnTime: 30
@@ -71,9 +71,10 @@ MonoBehaviour:
       spawnTime: 114
       laneIndex: 0
     cardLevels:
-    - cardPrefab: {fileID: 5326860071833668289, guid: 582aeae17881396498a173764fb680a9, type: 3}
-    - cardPrefab: {fileID: 4895596932577264935, guid: b09aeeb48b57c934e96f3c14d9622687, type: 3}
-    - cardPrefab: {fileID: 8822080084861336491, guid: a8c943dac6dbad946a11005a8232d07b, type: 3}
+    - {fileID: 4895596932577264935, guid: b09aeeb48b57c934e96f3c14d9622687, type: 3}
+    - {fileID: 5326860071833668289, guid: 582aeae17881396498a173764fb680a9, type: 3}
+    - {fileID: 8822080084861336491, guid: a8c943dac6dbad946a11005a8232d07b, type: 3}
+    skyboxMaterial: {fileID: 2100000, guid: 9ca22510633fbfd4399f1704cd9d5c72, type: 2}
   - enemies:
     - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
       spawnTime: 30
@@ -115,9 +116,11 @@ MonoBehaviour:
       spawnTime: 189
       laneIndex: 3
     cardLevels:
-    - cardPrefab: {fileID: 5326860071833668289, guid: 582aeae17881396498a173764fb680a9, type: 3}
-    - cardPrefab: {fileID: 4895596932577264935, guid: b09aeeb48b57c934e96f3c14d9622687, type: 3}
-    - cardPrefab: {fileID: 8822080084861336491, guid: a8c943dac6dbad946a11005a8232d07b, type: 3}
+    - {fileID: 4895596932577264935, guid: b09aeeb48b57c934e96f3c14d9622687, type: 3}
+    - {fileID: 5326860071833668289, guid: 582aeae17881396498a173764fb680a9, type: 3}
+    - {fileID: 8822080084861336491, guid: a8c943dac6dbad946a11005a8232d07b, type: 3}
+    - {fileID: 7848082902034150000, guid: 86d02d5a16f14734a9218666c3aebd50, type: 3}
+    skyboxMaterial: {fileID: 2100000, guid: 7c86d4abbd33b564b9e773aceadb8572, type: 2}
   - enemies:
     - enemyPrefab: {fileID: 6689808769562859545, guid: a335d998a43435344b7cef46b9bf78af, type: 3}
       spawnTime: 30
@@ -180,7 +183,9 @@ MonoBehaviour:
       spawnTime: 380
       laneIndex: 4
     cardLevels:
-    - cardPrefab: {fileID: 5326860071833668289, guid: 582aeae17881396498a173764fb680a9, type: 3}
-    - cardPrefab: {fileID: 4895596932577264935, guid: b09aeeb48b57c934e96f3c14d9622687, type: 3}
-    - cardPrefab: {fileID: 8822080084861336491, guid: a8c943dac6dbad946a11005a8232d07b, type: 3}
+    - {fileID: 4895596932577264935, guid: b09aeeb48b57c934e96f3c14d9622687, type: 3}
+    - {fileID: 5326860071833668289, guid: 582aeae17881396498a173764fb680a9, type: 3}
+    - {fileID: 8822080084861336491, guid: a8c943dac6dbad946a11005a8232d07b, type: 3}
+    - {fileID: 7848082902034150000, guid: 86d02d5a16f14734a9218666c3aebd50, type: 3}
+    skyboxMaterial: {fileID: 2100000, guid: 94caf2ba4ca5e46bfaba53afcc8778dd, type: 2}
   currentIndex: 0
